@@ -3,7 +3,7 @@ import { GoArrowDown } from "react-icons/go";
 
 export default function Hero () {
     return (
-            <div className="h-[50rem] w-full bg-black  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
+            <div id="#" className="h-[50rem] w-full bg-black  bg-dot-white/[0.2] relative flex items-center justify-center">
                 {/* Radial gradient for the container to give a faded look */}
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_80%,black)]"></div>
                     <div className="static z-20 bg-clip-text text-transparent from-neutral-200 to-neutral-500 py-8">
@@ -30,7 +30,9 @@ export default function Hero () {
                         />
                         <div className="absolute bottom-48 right-96">
                         <p className="z-0 text-white  text-2xl pb-2">New NBA Episode</p>
+                        <a target="_blank" href="https://youtu.be/rIaFNKuQFOQ?si=wGAziDKMvh8OxL2i">
                         <button className="border z-0 text-white hover:text-blue rounded-2xl ml-20 px-4 py-1">Watch Now</button>
+                        </a>
                         </div>
                         <div className="text-white bottom-0 flex relative justify-center  ">
                         <GoArrowDown

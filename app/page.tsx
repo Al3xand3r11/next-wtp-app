@@ -8,7 +8,7 @@ import Content from "./components/content";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-black text-white">
       <NavBar/>
       <Hero/>
       <Socials/>
