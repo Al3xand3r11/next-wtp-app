@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function Socials () {
     return (
-        <div className="flex flex-row  pt-4 justify-evenly">
-            <a target="_blank" href="https://instagram.com/whatstheplaypodcast">
+        <div className="flex flex-col md:flex-row  pt-4 justify-center pl-44 md:pl-0 md:justify-evenly h-auto">
+            <a target="_blank" href="https://www.instagram.com/whatstheplayproductions/" rel="noopener">
             <Image
                 src={`/Instagram.svg`}
                 alt="Instagram"
@@ -12,7 +12,7 @@ export default function Socials () {
                 className="transfrom transition duration-300 hover:scale-125 pt-12"
             />
             </a>
-            <a target="_blank" href="https://twitter.com/WTPlayPodcast">
+            <a target="_blank" href="https://twitter.com/WTPlayPodcast" rel="noopener">
             <Image
                 src={`/Twitter.svg`}
                 alt="Twitter"
@@ -21,7 +21,7 @@ export default function Socials () {
                 className="transfrom transition duration-300 hover:scale-125 pt-12"
             />
             </a>
-            <a target="_blank" href="https://www.youtube.com/@whatstheplayproductions/videos">
+            <a target="_blank" href="https://www.youtube.com/@whatstheplayproductions/videos" rel="noopener">
             <Image
                 src={`/Youtube.svg`}
                 alt="Youtube"
@@ -30,7 +30,7 @@ export default function Socials () {
                 className="transfrom transition duration-300 hover:scale-125 pt-12"
             />
             </a>
-            <a target="_blank" href="https://tiktok.com/@whatstheplaypod">
+            <a target="_blank" href="https://tiktok.com/@whatstheplaypod" rel="noopener">
             <Image
                 src={`/TikTok.svg`}
                 alt="TikTok"

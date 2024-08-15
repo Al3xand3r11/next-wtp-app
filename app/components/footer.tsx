@@ -11,10 +11,10 @@ export default function Footer () {
                     </div>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
-                            <a target="_blank" href="https://open.spotify.com/show/6nLwog5JRvjJqJvvKYrkNf" className="hover:underline me-4 md:me-6">Podcasts</a>
+                            <a target="_blank" href="https://open.spotify.com/show/6nLwog5JRvjJqJvvKYrkNf" rel="noopener" className="hover:underline me-4 md:me-6">Podcasts</a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://www.youtube.com/@whatstheplayproductions/videos" className="hover:underline">Youtube</a>
+                            <a target="_blank" href="https://www.youtube.com/@whatstheplayproductions/videos" rel="noopener" className="hover:underline">Youtube</a>
                         </li>
                     </ul>
                 </div>

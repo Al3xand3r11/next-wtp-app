@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function Members () {
     return (
-        <div id="Members" className="h-screen">
-            <div className="pt-16 text-left font-semibold text-5xl pl-20">
+        <div id="Members" className="h-auto">
+            <div className="pt-16 text-left font-semibold text-5xl md:pl-20">
                 <h1>Meet the Members</h1>
                 <div className="justify-between">
-                    <div className="grid grid-cols-3 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                         <div className="flex items-center justify-center mt-12">
                             <div
                                 className="relative block  bg-gray-900 group rounded-3xl"
@@ -34,7 +34,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400"
+                                                        text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                        focus:ring-4 focus:outline-none focus:ring-cyan-300"
                                                 >
                                                     Instagram
                                                 </button>
@@ -72,7 +73,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400"
+                                                    text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                    focus:ring-4 focus:outline-none focus:ring-cyan-300"
                                                 >
                                                     Instagram
                                                 </button>
@@ -110,7 +112,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400" 
+                                                    text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                    focus:ring-4 focus:outline-none focus:ring-cyan-300" 
                                                 >
                                                     Instagram
                                                 </button>
@@ -148,7 +151,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400"
+                                                    text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                    focus:ring-4 focus:outline-none focus:ring-cyan-300"
                                                 >
                                                     Instagram
                                                 </button>
@@ -186,7 +190,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400"
+                                                    text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                    focus:ring-4 focus:outline-none focus:ring-cyan-300"
                                                 >
                                                     Instagram
                                                 </button>
@@ -224,7 +229,8 @@ export default function Members () {
                                                 </p>
                                                 <button
                                                     className="px-4 py-2 text-sm 
-                                                        text-white bg-blue rounded-lg hover:bg-red-400"
+                                                    text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue hover:bg-gradient-to-bl 
+                                                    focus:ring-4 focus:outline-none focus:ring-cyan-300"
                                                 >
                                                     Instagram
                                                 </button>
