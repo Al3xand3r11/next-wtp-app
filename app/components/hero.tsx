@@ -13,7 +13,7 @@ export default function Hero () {
                         fill="#39adf5"
                     />
                         <h1 className="md:hidden text-center  "><span className="font-extrabold text-8xl  pt-24 bg-gradient-to-r from-blue to-sky-400 bg-clip-text">
-                            What's The Play
+                            What`&apos;`s The Play
                         </span>
                         </h1>
                         <div className="hidden md:flex">
