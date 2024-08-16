@@ -13,7 +13,7 @@ export default function Hero () {
                         fill="#39adf5"
                     />
                         <h1 className="md:hidden text-center  "><span className="font-extrabold text-8xl  pt-24 bg-gradient-to-r from-blue to-sky-400 bg-clip-text">
-                            What`&apos;`s The Play
+                            What&apos;s The Play
                         </span>
                         </h1>
                         <div className="hidden md:flex">
@@ -22,6 +22,7 @@ export default function Hero () {
                             alt="blue light"
                             height="300"
                             width="300"
+                            priority
                             className=" md:absolute md:-bottom-20 md:right-28 md:-z-40 "
                         />
                         </div>
@@ -31,6 +32,7 @@ export default function Hero () {
                             alt="hero image"
                             height="1200"
                             width="1200"
+                            priority
                             className=" md:object-contain md:rounded-xl md:z-30 "
                         />
                         </div>
