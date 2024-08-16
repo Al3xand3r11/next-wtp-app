@@ -34,7 +34,7 @@ export default function Hero () {
                             className=" md:object-contain md:rounded-xl md:z-30 "
                         />
                         </div>
-                        <div className="md:absolute md:bottom-48 md:right-96 pt-16 md:pt-0 pl-20 md:pl-0">
+                        <div className="md:absolute md:bottom-48 md:right-96 pt-16 md:pt-0 pl-20 md:pl-0 z-50">
                         <p className="z-0 text-white text-lg md:text-2xl pb-2 pl-16 md:pl-0">New NBA Episode</p>
                         <a target="_blank" href="https://youtu.be/rIaFNKuQFOQ?si=wGAziDKMvh8OxL2i">
                         <button className="border z-0 text-white hover:text-blue rounded-2xl ml-20 md:ml-20 px-4 py-1">Watch Now</button>
