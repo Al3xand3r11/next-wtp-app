@@ -23,7 +23,7 @@ export default function NavBar () {
             <div className="max-w-5xl mx-auto pt-2 ">
                 <div className="flex h-24 md:flex hidden items-center justify-between pb-16">
                     <a href="#">
-                    <span className="text-2xl text-white hover:text-blue font-semibold">What`&apos;`s The Play Productions</span>
+                    <span className="text-2xl text-white hover:text-blue font-semibold">What&apos;s The Play Productions</span>
                     </a>
                     <div className="flex space-x-4 text-white">
                         <a href="#Members" className="hover:text-blue">Members</a>
