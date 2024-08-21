@@ -1,8 +1,9 @@
 import Image from "next/image"
+import { Reveal } from "./ui/Reveal"
 
 export default function Content () {
     return (
-        <div id="Content" className="h-auto ">
+        <div id="Content" className="h-auto">
             <h1 className="pb-16 text-right font-semibold text-5xl pr-2 md:pr-24 pt-12">Content</h1>
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 ">
                 <div className=" justify-items-center w-9/12 pl-20 ">
@@ -42,16 +43,17 @@ export default function Content () {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-16" />
                 </div>
+                <Reveal>
                 <div className="pl-14 md:pl-0">
                 <div className=" w-9/12 md:h-4/5 border rounded-xl transfrom transition duration-300 hover:scale-110">
                 <a target="_blank" href="https://briansdeductions.com/2024/07/08/what-if-steve-nash-dwelled-in-dallas/">
                     <Image className="rounded-t-xl" src={`/Article.webp`} alt="Article" height={500} width={800} />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                     <a target="_blank" href="https://briansdeductions.com/2024/07/08/what-if-steve-nash-dwelled-in-dallas/">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">What if Steve Nash Dwelled in Dallas?</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-400 md:pt-20">Brian&apos;s Deductions - July 8th</p>
+                    <p className="mb-3 font-normal text-gray-400 md:pt-10">Brian&apos;s Deductions - July 8th</p>
                     <a target="_blank" href="https://briansdeductions.com/2024/07/08/what-if-steve-nash-dwelled-in-dallas/" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -61,6 +63,7 @@ export default function Content () {
                 </div>
                 </div>
                 </div>
+                </Reveal>
             </div>
         </div>
 
