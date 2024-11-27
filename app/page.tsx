@@ -21,9 +21,9 @@ export default function Home() {
     return
   },[isLoading])
   return (
-    <main className="bg-black text-white">
+    <main className="bg-white text-black">
+        <NavBar/>
         <Hero/>
-        <Footer/>
      
     </main>
   );
