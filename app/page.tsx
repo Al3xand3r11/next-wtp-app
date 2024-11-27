@@ -22,19 +22,8 @@ export default function Home() {
   },[isLoading])
   return (
     <main className="bg-black text-white">
-      {isLoading && isHome ? (
-        <Landing finishLoading={() => setIsLoading(false)}/>
-      ) : (
-        <>
-        <NavBar/>
         <Hero/>
-        <Socials/>
-        <Members/>
-        <Content/>
-        <Newsletter/>
         <Footer/>
-        </>
-      )}
      
     </main>
   );

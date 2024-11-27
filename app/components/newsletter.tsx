@@ -31,7 +31,7 @@ export default function Newsletter () {
                 >
                     <div className="flex flex-col md:flex-row justify-between">
                     <div className="pt-64">
-                        <input className="bg-black  text-white text-3xl md:text-6xl pl-8 placeholder-gray-700 outline-none placeholder-opacity-60"
+                        <input className="bg-black  text-white text-3xl md:text-6xl pl-8 placeholder-gray-700 outline-none placeholder-opacity-90"
                             type="email" 
                             name="user_email" 
                             id="email"  
