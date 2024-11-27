@@ -19,13 +19,13 @@ export default function NavBar () {
     }
 
     return (
-        <nav className="z-50 w-full fixed">
-            <div className=" mx-auto pt-2 ">
-                <div className="flex h-24 md:flex hidden items-center justify-between pb-16 pt-6 mx-8">
+        <nav className="z-50 w-full h-auto mt-6">
+            <div className=" mx-auto ">
+                <div className="flex md:flex hidden items-center justify-between mx-8">
                     <a href="#">
                     <span className="text-4xl text-black hover:text-blue font-semibold hover:ease-in">What&apos;s The Play Productions</span>
                     </a>
-                    <div className="flex space-x-4 text-black text-2xl">
+                    <div className="flex space-x-4 text-black text-3xl">
                     <a href="#Members" className="hover:text-blue">Home</a>
                         <a href="#Members" className="hover:text-blue">Members</a>
                         <a href="#Content" className="hover:text-blue">Articles</a>

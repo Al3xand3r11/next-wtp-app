@@ -22,8 +22,14 @@ export default function Home() {
   },[isLoading])
   return (
     <main className="bg-white text-black">
+      <>
         <NavBar/>
         <Hero/>
+        <Content/>
+        <Newsletter/>
+        <Footer/>
+      </>
+        
      
     </main>
   );
