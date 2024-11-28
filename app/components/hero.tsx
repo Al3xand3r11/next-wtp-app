@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Hero () {
     return (
-            <div id="#" className="h-screen w-full relative flex  mb-28 ">
+            <div id="#" className="h-screen w-full relative flex ">
                 <div className="flex ">
                     <div className="ml-4 mt-48 w-1/2">
                     <div className="text-8xl font-extrabold  text-left ">
@@ -15,7 +15,7 @@ export default function Hero () {
                     </div>
                     <div className="absolute mt-8 items-end">
                     <a href="#_" className="px-5 py-2.5 relative group overflow-hidden font-medium border text-blue w-64 text-center">
-                        <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-blue group-hover:h-full opacity-90"></span>
+                        <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
                         <span className="relative group-hover:text-white text-2xl">Members</span>
                     </a>
                     </div>
