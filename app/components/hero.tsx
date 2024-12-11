@@ -5,8 +5,8 @@ export default function Hero () {
             <div id="#" className="h-screen w-full relative flex ">
                 <div className="flex ">
                     <div className="ml-4 mt-48 w-1/2">
-                    <div className="text-8xl font-extrabold  text-left ">
-                        What&apos;s The Play Productions
+                    <div className="text-6xl font-extrabold  text-left motion-preset-typewriter-[16] motion-loop-once ">
+                    What&apos;s The Play <br/> Productions
                     </div>
                     <div className="text-xl w-2/3 mt-4">
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Vulputate morbi dolor libero; efficitur elementum mollis luctus. 
@@ -27,7 +27,7 @@ export default function Hero () {
                             alt="Lebron"
                             width={900}
                             height={500}
-                            className="rounded-xl drop-shadow-2xl"
+                            className="rounded-xl drop-shadow-[0_35px_35px_rgba(0,0,0,0.50)]"
                         />
                     </div>
                 </div>

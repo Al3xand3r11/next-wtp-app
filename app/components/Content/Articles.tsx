@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Articles () {
     return (
-        <div className="  w-11/12 pl-20 ">
+        <div className="  w-full pl-20 font-semibold">
                 <h1 className="text-5xl mb-16">Articles</h1>
                 <div className="flex flex-row transfrom transition duration-300 hover:scale-110">
                 <h1 className="text-3xl">Brian&apos;s Deductions -  </h1>

@@ -6,11 +6,11 @@ import Scoreboard from "./Content/Scoreboard"
 export default function Content () {
     return (
         <div id="Content" className="h-auto">
-            <div className="flex">
+            <div className="flex justify-between">
                 <div>
                     <Articles/>
                 </div>
-                <div>
+                <div className="">
                     <Scoreboard/>
                 </div>
                 
