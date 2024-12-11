@@ -41,7 +41,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [
+  plugins: [ 
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
@@ -64,6 +64,7 @@ const config: Config = {
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
     },
+    require('tailwindcss-motion')
 
   ],
 };
