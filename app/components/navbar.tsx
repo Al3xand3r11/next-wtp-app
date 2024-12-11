@@ -1,5 +1,6 @@
 'use client'
 import React, {useState} from "react";
+import Link from "next/link";
 import {
     FaBars,
   } from 'react-icons/fa';
@@ -27,7 +28,7 @@ export default function NavBar () {
                     </a>
                     <div className="flex space-x-4 text-black text-3xl mt-2">
                     <a href="#Members" className="hover:text-blue">Home</a>
-                        <a href="#Members" className="hover:text-blue">Members</a>
+                        <Link href="/Members" className="hover:text-blue">Members</Link>
                         <a href="#Content" className="hover:text-blue">Articles</a>
                     </div>
                     <a href="#_" className="px-5 py-2.5 relative group overflow-hidden font-medium border text-blue w-64 text-center mt-6">
