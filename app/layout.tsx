@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Darker_Grotesque } from "next/font/google";
 import "./globals.css"
 
-const raleway = Raleway({ subsets: ["latin"] });
+const darkerGrotesque = Darker_Grotesque({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "What's The Play",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={raleway.className}>{children}</body>
+      <body className={darkerGrotesque.className}>{children}</body>
     </html>
   );
 }
