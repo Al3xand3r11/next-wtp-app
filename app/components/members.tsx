@@ -1,12 +1,27 @@
-import Image from "next/image"
+'use client'
+import { useState } from "react"
 
 export default function Members () {
+    const [isHover, setIsHover] = useState<boolean>(false);
+
+    const handleOnMouseOver =  () => {
+        setIsHover(true)
+    }
+
+    const handleMouseOut = () => {
+        setIsHover(false)
+    }
     return (
         <>
             <div className="text-center text-[128px] font-extrabold mt-24">
-                <h1 className="opacity-30 hover:opacity-100 hover:cursor-default">
+                <h1 className="opacity-30 hover:opacity-100 hover:cursor-default" onMouseOver={handleOnMouseOver} onMouseOut={handleMouseOut}>
                     Brian
                 </h1>
+                {isHover &&
+                    <p>
+                    Test
+                    </p>
+                }
                 <hr className="w-3/4 m-auto h-12"/>
                 <h1 className="opacity-30 hover:opacity-100 hover:cursor-default">
                     Caleb
