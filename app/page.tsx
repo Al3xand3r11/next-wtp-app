@@ -21,10 +21,11 @@ export default function Home() {
     return
   },[isLoading])
   return (
-    <main className="bg-white text-black">
+    <main className="bg-grey text-white">
       <>
         <NavBar/>
         <Hero/>
+        <Members/>
         <Content/>
         <Newsletter/>
         <Footer/>

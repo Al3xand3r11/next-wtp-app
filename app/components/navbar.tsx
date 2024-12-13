@@ -24,16 +24,11 @@ export default function NavBar () {
             <div className=" mx-auto ">
                 <div className="flex md:flex hidden items-center justify-between mx-8">
                     <a href="#">
-                    <span className="text-4xl text-black hover:text-blue font-semibold hover:ease-in">What&apos;s The Play Productions</span>
+                    <span className="text-4xl text-white hover:text-blue font-semibold hover:ease-in">What&apos;s The Play Productions</span>
                     </a>
-                    <div className="flex space-x-4 text-black text-3xl mt-2">
-                    <a href="#Members" className="hover:text-blue">Home</a>
-                        <Link href="/Members" className="hover:text-blue">Members</Link>
-                        <a href="#Content" className="hover:text-blue">Articles</a>
-                    </div>
-                    <a href="#_" className="px-5 py-2.5 relative group overflow-hidden font-medium border text-blue w-64 text-center mt-6">
-                        <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
-                        <span className="relative group-hover:text-white text-2xl">Newsletter</span>
+                    <a href="#Newsletter" className="px-3 py-2.5 relative group overflow-hidden font-medium border text-white w-64 text-center mt-6">
+                        <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-white group-hover:h-full opacity-90"></span>
+                        <span className="relative group-hover:text-grey text-2xl">Newsletter</span>
                     </a>
                 </div>
             </div>

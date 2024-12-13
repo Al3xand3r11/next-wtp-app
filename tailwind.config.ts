@@ -23,6 +23,7 @@ const config: Config = {
       },
       colors: {
         "blue": "#5CE1E6",
+        "grey": "#1B1B1B"
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",

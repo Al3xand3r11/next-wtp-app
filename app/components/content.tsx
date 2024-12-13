@@ -10,9 +10,6 @@ export default function Content () {
                 <div>
                     <Articles/>
                 </div>
-                <div className="">
-                    <Scoreboard/>
-                </div>
                 
             
 
