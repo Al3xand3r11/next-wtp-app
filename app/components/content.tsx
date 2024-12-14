@@ -6,8 +6,8 @@ import Scoreboard from "./Content/Scoreboard"
 export default function Content () {
     return (
         <div id="Content" className="h-auto">
-            <div className="flex justify-between">
-                <div>
+            <div className="flex justify-between view">
+                <div className="section">
                     <Articles/>
                 </div>
                 
