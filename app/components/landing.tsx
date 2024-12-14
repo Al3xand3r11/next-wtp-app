@@ -28,7 +28,7 @@ const Landing = ({finishLoading}: LandingProps) => {
         const timeout = setTimeout(() => setIsMounted(true), 10)
         animate()
         return () => clearTimeout(timeout)
-    },[])
+    },[animate])
     
     
     return(
